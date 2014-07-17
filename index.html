@@ -91,7 +91,7 @@ tr.h1 td.whole-line, tr.h2 td.whole-line {
   Working Drafts of 7 November 2013 </h1>
 <dl>
   <dt>Updated on:</dt>
-  <dd>15 July, 2014</dd>
+  <dd>17 July, 2014</dd>
   <dt>This Version (Github)</dt>
   <dd><a href="http://jspellman.github.io/UAAG-LC-Comment/">http://jspellman.github.io/UAAG-LC-Comment/</a></dd>
   <dt>Latest Version</dt>
@@ -137,9 +137,9 @@ the <a href="http://www.w3.org/WAI/UA/UAAG20/">latest Editors' Draft</a>. If the
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0008.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0008.html</a></dd>
   <dt>Eric Hansen, Educational Testing Serive (EH) - 15 issues <span class="done">[done]</span> </dt>
   <dd><a href="http://lists.w3.org/Archives/Public/w3c-wai-ua/2014JanMar/0024.html">http://lists.w3.org/Archives/Public/w3c-wai-ua/2014JanMar/0024.html</a></dd>
-  <dt>Simon Harper, RDWG (SH) - 6 issues <span class="under-discussion">[partial 5 of 6]</span></dt>
+  <dt>Simon Harper, RDWG (SH) - 6 issues <span class="done">[done]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0012.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0012.html</a></dd>
-  <dt>Lisa Seeman, Cognative Accessibility Task Force (CA) - <span class="not-addressed">6 issues</span></dt>
+  <dt>Lisa Seeman, Cognative Accessibility Task Force (CA) - 6 issues <span class="under-discussion">[0 of 6]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Feb/0000.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Feb/0000.html</a></dd>
 </dl>
 <h2>Legend: </h2>
@@ -3584,7 +3584,7 @@ functionality including text input can be operated using that device.
         </p>
         <p>Examples include: Additional offers; how to upgrade to a more expensive option; downloading a toolbar etc.   </p>
         <p>It should also be broader such as:     Help users avoid and identify content that is not necessary to the task they are trying to perform.</p></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="not-addressed">[not addressed]</span><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3617,7 +3617,7 @@ lets the author identify something as low priority. If UA followed <a href="http
         <p>c)Information in the user agent user interface that is being updated or changing   d)</p>
         <p>d)Rendered content that is being updated or changing</p>
         <p>&nbsp;</p></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span>  <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item03">UAWG</a> examined the testability of this SC and couldn't find a wording that was testable. Further, we could not find compelling use cases that would be testable. <br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3626,7 +3626,7 @@ lets the author identify something as low priority. If UA followed <a href="http
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top">(b)&nbsp;Information in the user agent user interface that is being updated or changing</td>
       <td align="left" valign="top">CA03: Also we think it needs to be easy to do this - not just possible. So maybe add  To ensure that it is easy to avoid or defer this content it should:  Be not more then two steps, Such as: One step to select avoid or defer them and a conformation step.  Only simple and clear text and symbols should be used in controls to avoid or defer this content  Controls to avoid this type of content should be positioned above or next to the content that it refers to.     Also the group is working to identify semantics that would make it possible to handle this as an adaptive interface at the user end. If this becomes possible and is supported, then it would be an acceptable alternative to make sure the Messages and content that are non-essential or low priority for the user and Messages, features and content that are not part of the core use-cases for the content can be programmatically identified.</td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span> see discussion of CA02<br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3635,7 +3635,7 @@ lets the author identify something as low priority. If UA followed <a href="http
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top">(c)&nbsp; Rendered content that is being updated or changing</td>
       <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top">UAWG notes that this would require visual blocking of ARIA politeness which is outside the ARIA spec. </td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3659,7 +3659,7 @@ undo settings changes (3.2.5, Level A), and receive indications of
 progress activity (3.2.6, Level A).</strong></td>
       <td align="left" valign="top"><p>CA04: Suggestion :  Filling in information is much slower and harder for people with cognitive disabilities. Therefore:     Information should be easily retrievable such as via automatically saving the work so far.   The user should be able to go back a step without losing what they have submitted. People with cognitive difficulties often have very low confidence in the accuracy of what they are submitting and therefore the ability to review and amend easily is important.    Also authors and agents should never try to confuse the user.     For example,  the users original selection / choice / offering should be selected by default not switched to the item they want to up-sell , such as expensive options being placed before the cheaper option that the user thinks they are selecting.  (Obvious but worth spelling out anyway...). An example of this would be AVG antivirus that switches the user to premium edition and leaves it to the user to switch back.    We  would like to  include:  The original offering/selection should be selected by default and should not be switched automatically to an alternative       If this is not acceptable  maybe include:    Label any alternatives clearly   Make it easy to select the original offering:  The original offering should be positioned above or next to the alternative     The original offering should be sized the same or bigger then the the alternative     In the future we may have the  semantics that would make it possible to handle this as an adaptive interface at the user end. If this becomes possible then it would be an acceptable alternative to make sure the original selection can be programmatically identified.</p>
         <p>&nbsp;</p></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span> <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item06">UAWG</a> noted that most of this comment is related to web content not user agent user interface. Saving form information is an interesting possibility. Jan &amp; Greg took an action to draft a possible SC. <br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -4120,9 +4120,9 @@ Exchanges Timely: For APIs implemented to satisfy the requirements of
 UAAG 2.0, ensure that programmatic exchanges proceed at a rate such that
  users do not perceive a delay. (Level A)</strong></td>
       <td align="left" valign="top">SH06: 4.1.7 is about making API Calls be timely such that delays aren't perceived by users, but this is difficult if the software interfaced to us not timely, people may the perceive a delay. I think this needs to be a little more explicit.        <br /></td>
-      <td align="left" valign="top"><span class="not-addressed">[unaddressed]</span> <br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> UAWG agreed that the 4.1.7 was not testable in that there are so many variables that can impact response time; and the accessibility issures in response time are not ones that usually can be addressed by the user agent.  4.1.7 has been removed from UAAG 2.0. <br /></td>
+      <td align="left" valign="top">Accept<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
       <td align="left" valign="top"><br /></td>
     </tr>
     <tr class="h1">
