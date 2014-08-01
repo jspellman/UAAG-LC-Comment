@@ -91,7 +91,7 @@ tr.h1 td.whole-line, tr.h2 td.whole-line {
   Working Drafts of 7 November 2013 </h1>
 <dl>
   <dt>Updated on:</dt>
-  <dd>17 July, 2014</dd>
+  <dd>31 July, 2014</dd>
   <dt>This Version (Github)</dt>
   <dd><a href="http://jspellman.github.io/UAAG-LC-Comment/">http://jspellman.github.io/UAAG-LC-Comment/</a></dd>
   <dt>Latest Version</dt>
@@ -120,16 +120,16 @@ the <a href="http://www.w3.org/WAI/UA/UAAG20/">latest Editors' Draft</a>. If the
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2013Dec/0000.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2013Dec/0000.html</a></dd>
   <dt>James Craig, Apple (AP) - 2 issues <span class="done">[done]</span> </dt>
   <dd>direct email</dd>
-  <dt>Silas Brown (SB) - 6 issues <span class="done">[done]</span></dt>
+  <dt>Silas Brown (SB) - 6 issues <span class="done">[done]</span> <span class="under-discussion">[2 Implementing update incomplete]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0000.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0000.html</a></dd>
   <dt>Dominic Mazzilli, Chrome (CR) - 7 issues <span class="not-addressed"> <span class="done">[done]</span>  </span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0001.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0001.html</a></dd>
   <dt>Alex Li, Microsoft (MS) - 9 issues <span class="under-discussion">[partial 7 of 9]</span> </dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0002.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0002.html</a></dd>
-  <dt>Joshue O'Connor, WCAG WG (JO) - 22 issues  <span class="done">[done]</span></dt>
+  <dt>Joshue O'Connor, WCAG WG (JO) - 22 issues  <span class="done">[done]</span> <span class="under-discussion">[2 editorial incomplete]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0005.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0005.html</a></dd>
   <dt>Laurent Goderre, Web Experience Toolkit Player (LG)
-  - 4 issues <span class="under-discussion">[partial 3 of 4]</span> </dt><dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0007.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0007.html</a></dd>
+  - 4 issues <span class="under-discussion">[partial 3 of 4 -Implementing change]</span> </dt><dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0007.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0007.html</a></dd>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0009.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0009.html</a></dd>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0010.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0010.html</a></dd>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0011.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0011.html</a></dd>
@@ -139,7 +139,7 @@ the <a href="http://www.w3.org/WAI/UA/UAAG20/">latest Editors' Draft</a>. If the
   <dd><a href="http://lists.w3.org/Archives/Public/w3c-wai-ua/2014JanMar/0024.html">http://lists.w3.org/Archives/Public/w3c-wai-ua/2014JanMar/0024.html</a></dd>
   <dt>Simon Harper, RDWG (SH) - 6 issues <span class="done">[done]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0012.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Jan/0012.html</a></dd>
-  <dt>Lisa Seeman, Cognative Accessibility Task Force (CA) - 6 issues <span class="under-discussion">[0 of 6]</span></dt>
+  <dt>Lisa Seeman, Cognative Accessibility Task Force (CA) - 6 issues <span class="under-discussion">[5 of 6]</span></dt>
   <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Feb/0000.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Feb/0000.html</a></dd>
 </dl>
 <h2>Legend: </h2>
@@ -1346,11 +1346,8 @@ problems than  they solve accessibility problems. I don't have any
 objection to allowing  the user to specify font subsitutions, in 
 comparison. <br />
         </p>        <br /></td>
-      <td align="left" valign="top"><p><span class="under-discussion">[incomplete]</span> <a href="http://www.w3.org/2014/04/24-ua-minutes.html#item01">UAWG</a> recognizes that additional user options represent added burden for the developer in all phases, including design, implementation, testing, documentation, and support.  We explicitly state that the user agent can comply using both built-in features and extensions.  However, this approach is definitely inferior to making the features built-in. For example, it increases difficulty for users to find the features, particularly if there isn't a universally obvious way of referring to them when searching, or if the sheer number of available extensions is overwhelming, if the platform allows developers to charge for the extensions, if the extensions lag behind new versions of the user agent or development stops altogether, if the extensions are not supported to the extent the base user agent is, if various extensions prove incompatible with each other, etc. Of course, some of these problems go away if the the user agent manufacturer builds, distributes, and supports the   extensions themselves.</p>
-        <p>That said, <span class="under-discussion">1.4 is being reworked</span> to address an overly granualar approach. </p>
-        <p class="under-discussion"><a href="http://www.w3.org/2014/05/08-ua-minutes.html#item03">meeting discussion with Wayne</a></p>
-        <p class="under-discussion"><a href="http://www.w3.org/2014/05/08-ua-minutes.html#item03">Action-979 discussion</a><br />
-        </p></td>
+      <td align="left" valign="top"><p><span class="done">[done]</span> <a href="http://www.w3.org/2014/04/24-ua-minutes.html#item01">UAWG</a> recognizes that additional user options represent added burden for the developer in all phases, including design, implementation, testing, documentation, and support.  We explicitly state that the user agent can comply using both built-in features and extensions.  However, this approach is definitely inferior to making the features built-in. For example, it increases difficulty for users to find the features, particularly if there isn't a universally obvious way of referring to them when searching, or if the sheer number of available extensions is overwhelming, if the platform allows developers to charge for the extensions, if the extensions lag behind new versions of the user agent or development stops altogether, if the extensions are not supported to the extent the base user agent is, if various extensions prove incompatible with each other, etc. Of course, some of these problems go away if the the user agent manufacturer builds, distributes, and supports the   extensions themselves.</p>
+        <p>That said, 1.4 has been reworked to address an overly granualar approach. </p></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -2367,7 +2364,7 @@ Elements: The user can access related elements based on the user's
 position in content (e.g.&nbsp;show the label of a form control, show 
 the headers of a table cell). (Level AA)</strong></td>
       <td align="left" valign="top">SH04: For 1.10.1 are we assuming that close elements will be close in the DOM. I'd think this would be hard based on the visual rendering, and would require some idea of the semantics of the association. I'd also think that a label to a form element could be close in  DOM for distant in the visual rendering based on the CSS, how is this handled?<br /></td>
-      <td align="left" valign="top"><span class="under-discussion">[incomplete] <a href="http://lists.w3.org/Archives/Public/w3c-wai-ua/2014AprJun/0067.html">Jan proposal</a></span> <a href="http://www.w3.org/2014/06/19-ua-minutes.html#item08">UAWG</a> changed 1.10.1 to list specific elements where the user agent presents labels. Greg is re-working the proposal based on the discussion in the 3 July meeting. <br /></td>
+      <td align="left" valign="top"><span class="under-discussion">[incomplete - js needs to update documnent]</span> <a href="http://www.w3.org/2014/06/19-ua-minutes.html#item08">UAWG</a> changed 1.10.1 to list specific elements where the user agent presents labels. <a href="http://www.w3.org/2014/07/10-ua-minutes.html#item01">UAWG</a> accepted the proposal for rewriting 1.10.1 oon 10 July 2014<br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -2829,7 +2826,7 @@ location of the match. (Level A)</td>
 be a requirement to customize the way those results are displayed. By
 adding search matches to 1.3.1, those matches would need to be customizable
 as per 1.3.2.<br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> <a href="http://www.w3.org/2014/02/27-ua-minutes.html#item03">UAWG</a> added &quot;found search results&quot; to 1.3.1 which covers highlighting and customization. <br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -2988,7 +2985,7 @@ to activate those methods in a modality independent manner. (Level AA)</td>
  to a the current top-level viewport). That could potentially be added 
 as a separate, lower-level SC, but I'm not sure how we'd say what is 
 required to be convenient. By the way, your example is a good one that 
-we could add to the Implementing document.<br /></td>
+we could <span class="under-discussion">add to the Implementing</span> document.<br /></td>
       <td align="left" valign="top">Not accepted<br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3584,10 +3581,15 @@ functionality including text input can be operated using that device.
         </p>
         <p>Examples include: Additional offers; how to upgrade to a more expensive option; downloading a toolbar etc.   </p>
         <p>It should also be broader such as:     Help users avoid and identify content that is not necessary to the task they are trying to perform.</p></td>
-      <td align="left" valign="top"><span class="not-addressed">[not addressed]</span><br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> UAWG decided to remove 3.1.1 because we could not find a way to make it testable. <br /></td>
+      <td align="left" valign="top">Not accepted<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
+      <td align="left" valign="top"><p>Accept</p><ul>
+        <li><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Feb/0000.html">CATF agenda request </a></li>
+        <li><a href="http://www.w3.org/2014/07/21-coga-minutes.html#item02">CATF minutes</a></li>
+       <li><a href="http://lists.w3.org/Archives/Public/w3c-wai-ua/2014JulSep/0027.html">summary to UAWG</a></li>
+       </ul>
+      </p></td>
     </tr>
     <tr class="AA">
       <td align="left" valign="top">AA</td>
@@ -3599,13 +3601,16 @@ possible, but sometimes asking for permission is important. I'm not
 sure on what criteria would compliance be judged with respect to
 something being considered 'essential' or 'non-essential'.
 <br /></td>
-      <td align="left" valign="top"><span class="done">[done]</span> <a href="http://www.w3.org/2014/02/27-ua-minutes.html#action06">UAWG</a>
- removed the term "non-essential" leaving low-priority. The SC uses the 
-term 'recognized' which is explicitly limited to things that are 
-objectively determinable, and in the example is WAI-ARIA markup that 
-lets the author identify something as low priority. If UA followed <a href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-live">aria-politeness </a>recommendations it would pass<br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><p><span class="done">[done]</span> <a href="http://www.w3.org/2014/02/27-ua-minutes.html#action06">UAWG</a>
+        removed the term "non-essential" leaving low-priority. The SC uses the 
+        term 'recognized' which is explicitly limited to things that are 
+        objectively determinable, and in the example is WAI-ARIA markup that 
+        lets the author identify something as low priority. If UA followed <a href="http://www.w3.org/TR/wai-aria/states_and_properties#aria-live">aria-politeness </a>recommendations it would pass</p>
+        <p><a href="http://www.w3.org/2014/07/17-ua-minutes.html#item03">UAWG</a> removed 3.1.1. See CA01</p>
+        <p><br />
+        </p></td>
+      <td align="left" valign="top">Accept<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
       <td align="left" valign="top"><br /></td>
     </tr>
     <tr>
@@ -3617,19 +3622,19 @@ lets the author identify something as low priority. If UA followed <a href="http
         <p>c)Information in the user agent user interface that is being updated or changing   d)</p>
         <p>d)Rendered content that is being updated or changing</p>
         <p>&nbsp;</p></td>
-      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span>  <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item03">UAWG</a> examined the testability of this SC and couldn't find a wording that was testable. Further, we could not find compelling use cases that would be testable. <br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span>  <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item03">UAWG</a> examined the testability of this SC and couldn't find a wording that was testable. Further, we could not find compelling use cases that would be testable. <br /></td>
+      <td align="left" valign="top">Not accepted<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
+      <td align="left" valign="top">Accept</td>
     </tr>
     <tr>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top">(b)&nbsp;Information in the user agent user interface that is being updated or changing</td>
       <td align="left" valign="top">CA03: Also we think it needs to be easy to do this - not just possible. So maybe add  To ensure that it is easy to avoid or defer this content it should:  Be not more then two steps, Such as: One step to select avoid or defer them and a conformation step.  Only simple and clear text and symbols should be used in controls to avoid or defer this content  Controls to avoid this type of content should be positioned above or next to the content that it refers to.     Also the group is working to identify semantics that would make it possible to handle this as an adaptive interface at the user end. If this becomes possible and is supported, then it would be an acceptable alternative to make sure the Messages and content that are non-essential or low priority for the user and Messages, features and content that are not part of the core use-cases for the content can be programmatically identified.</td>
-      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span> see discussion of CA02<br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> see discussion of CA01<br /></td>
+      <td align="left" valign="top">Not accepted<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
+      <td align="left" valign="top">Accept</td>
     </tr>
     <tr>
       <td align="left" valign="top"><br /></td>
@@ -3659,9 +3664,9 @@ undo settings changes (3.2.5, Level A), and receive indications of
 progress activity (3.2.6, Level A).</strong></td>
       <td align="left" valign="top"><p>CA04: Suggestion :  Filling in information is much slower and harder for people with cognitive disabilities. Therefore:     Information should be easily retrievable such as via automatically saving the work so far.   The user should be able to go back a step without losing what they have submitted. People with cognitive difficulties often have very low confidence in the accuracy of what they are submitting and therefore the ability to review and amend easily is important.    Also authors and agents should never try to confuse the user.     For example,  the users original selection / choice / offering should be selected by default not switched to the item they want to up-sell , such as expensive options being placed before the cheaper option that the user thinks they are selecting.  (Obvious but worth spelling out anyway...). An example of this would be AVG antivirus that switches the user to premium edition and leaves it to the user to switch back.    We  would like to  include:  The original offering/selection should be selected by default and should not be switched automatically to an alternative       If this is not acceptable  maybe include:    Label any alternatives clearly   Make it easy to select the original offering:  The original offering should be positioned above or next to the alternative     The original offering should be sized the same or bigger then the the alternative     In the future we may have the  semantics that would make it possible to handle this as an adaptive interface at the user end. If this becomes possible then it would be an acceptable alternative to make sure the original selection can be programmatically identified.</p>
         <p>&nbsp;</p></td>
-      <td align="left" valign="top"><span class="under-discussion">[incomplete]</span> <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item06">UAWG</a> noted that most of this comment is related to web content not user agent user interface. Saving form information is an interesting possibility. Jan &amp; Greg took an action to draft a possible SC. <br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> <a href="http://www.w3.org/2014/07/17-ua-minutes.html#item06">UAWG</a> noted that most of this comment is related to web content not user agent user interface. Saving form information is an interesting possibility. Jan &amp; Greg took an action to draft a possible SC. <a href="http://www.w3.org/2014/07/24-ua-minutes.html#item02">UAWG</a> added a new success criteria for auto-fill of form fields. However UAWG notes that UAAG only applies to the user agent, and does not apply to content of web sites. That would be covered by WCAG. <br /></td>
+      <td align="left" valign="top">Partial accept<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
       <td align="left" valign="top"><br /></td>
     </tr>
     <tr class="AA">
@@ -3676,7 +3681,7 @@ progress activity (3.2.6, Level A).</strong></td>
     <tr class="AA">
       <td align="left" valign="top">AA</td>
       <td align="left" valign="top"><strong>3.2.2 Back Button: </strong>The user can reverse recognized navigation between web addresses (e.g.&nbsp;standard "back button" functionality). (Level AA)</td>
-      <td align="left" valign="top"><a href="#MS04">MS04</a> applies here</td>
+      <td align="left" valign="top"><a href="#MS04">MS04</a> applies here. CA04 applies here. </td>
       <td align="left" valign="top"><span class="under-discussion">[incomplete]</span> <br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3749,7 +3754,7 @@ to proceed. (Level A)</strong></td>
         <p>We also would want to see a layered approach to help.  Tooltip help is a wonderful memory aid for clarifying what user features are and particularly useful for people with an impaired working memory. We would add:  </p>
         <p>Include short tooltips on all icons, jargon and shortened forms such as abbreviations. Typically these tooltips should be one or two words long. Tool tips in HTML can be provided via the title tag.    </p>
         <p>(You many also want to indicate that the tooltip should be or at least include the accessible name, so that those who use voice control can use the tooltip to discover the accessible name)</p></td>
-      <td align="left" valign="top"><span class="not-addressed">[unaddressed]</span> <br /></td>
+      <td align="left" valign="top"><span class="under-discussion">[incomplete - jeanne to update document]</span> UAWG added a new success criterion to document all the user interface features of the user agent. <br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
       <td align="left" valign="top"><br /></td>
@@ -3940,9 +3945,9 @@ Properties: For all user interface components, including user agent user
 makes available the following via a platform accessibility service: 
 (Level A)</strong></td>
       <td align="left" valign="top">CA06: When possible make, sure the meaning and role of all interface components can be programmatically identified </td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
-      <td align="left" valign="top"><br /></td>
+      <td align="left" valign="top"><span class="done">[done]</span> <a href="http://www.w3.org/2014/07/31-ua-minutes.html#item01">UAWG</a> agrees on this very important principle and has worked this into all appropriate parts of UAAG. However, the user agent can only ask for existing attributes such as name, role, state, value, selection, and focus from the Accessibility API. &quot;Meaning&quot; can be inferred from the name, but there is no accessibility API attribute for &quot;meaning&quot;. Otherwise, this is exactly what is intended with 4.1.2<br /></td>
+      <td align="left" valign="top">Partial accept<br /></td>
+      <td align="left" valign="top">substantive<br /></td>
       <td align="left" valign="top"><br /></td>
     </tr>
     <tr class="A">
@@ -4388,7 +4393,7 @@ User Agent Accessibility Faults: The user agent provides a mechanism for
       <td align="left" valign="top">&nbsp;</td>
       <td align="left" valign="top">8. <strong>Web Content Technologies:</strong></td>
       <td align="left" valign="top">EH12: Is there any overlap between the list of features not supported in #7  and the Web content technologies excluded from the conformance claim? It is not  clear.</td>
-      <td align="left" valign="top">There could be. I could see MathML being noted in both 7 &amp; 8 as not implemented in the platform (#7) and being excluded as a technology in #8. </td>
+      <td align="left" valign="top"><span class="done">[done]</span> There could be. MathML is noted in both 7 &amp; 8 as not implemented in the platform (#7) and being excluded as a technology in #8. </td>
       <td align="left" valign="top">Answered</td>
       <td align="left" valign="top">Question</td>
       <td align="left" valign="top">&nbsp;</td>
