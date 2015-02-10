@@ -117,6 +117,8 @@ Guidelines Working Group (UAWG) that details action taken on the 10 issues recei
 <dd><a href="http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Oct/0002.html">http://lists.w3.org/Archives/Public/public-uaag2-comments/2014Oct/0002.html</a></dd>
 <dt>Joseph Scheuhammer (PFWG) </dt>
 <dd><a href="https://lists.w3.org/Archives/Public/w3c-wai-ua/2014OctDec/0080.html">https://lists.w3.org/Archives/Public/w3c-wai-ua/2014OctDec/0080.html</a></dd>
+<dt>Shawn Henry (EOWG)</dt>
+<dd><a href="https://lists.w3.org/Archives/Public/w3c-wai-ua/2014OctDec/0071.html">https://lists.w3.org/Archives/Public/w3c-wai-ua/2014OctDec/0071.html</a></dd>
 </dl>
 <h2>Legend: </h2>
 <ul>
@@ -375,6 +377,25 @@ We do not agree that a "web-based user agent" is a legitimate concept.  If it's 
 			<td align="left"><br /></td>
 		</tr>
 		<tr>
+		  <td height="18" align="left">&nbsp;</td>
+		  <td align="left">Guideline 1.4</td>
+		  <td align="left">SH04: *Inconsistencies*<br />
+	        I'm not sure if the inconsistencies below are on purpose or in error? :-)
+		    <p>* 1.4.1 Basic text formatting (Globally):… Text scale with…<br />
+	        1.4.2 Basic text formatting (by Element): … Text size or scale</p>
+		    <p>* 1.4.1 Basic text formatting (Globally):…<br />
+		      Text color and background color, choosing from all platform color options<br />
+		      Font family, choosing from all installed fonts [this says &quot;installed&quot; &amp;<br />
+		      others say &quot;platform&quot;]<br />
+		      1.4.2 Basic text formatting (by Element):<br />
+		      Text color and background color, choosing from all platform color options<br />
+	      Font family, choosing from at least all platform fonts</p></td>
+		  <td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/08-ua-minutes.html#item05">UAWG</a> choose the wording with care.  Globally, text is scaled, but by element it can be sized or scaled.   Fonts are installed, but colors are chosen from the platform.  We reviewed the other success criteria to make sure the wording was consistent. </td>
+		  <td align="left">Not accepted</td>
+		  <td align="left">editorial</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
 			<td height="18" align="left"><br /></td>
 			<td align="left">Summary: The user can set text scale, color, style, line spacing, and font family globally (1.4.1, Level A). It is recommended that users set text size, color, line spacing, text style and font family for element types (1.4.2, Level AA); set character spacing, justification and margin sizes globally (1.4.3, Level AA); set capitalization, hyphenation, and borders globally (1.4.5, Level AAA); and print configured and reflowed text (1.4.4 Level AA).</td>
 			<td align="left"><br /></td>
@@ -420,6 +441,46 @@ We do not agree that a "web-based user agent" is a legitimate concept.  If it's 
 			<td align="left"><br /></td>
 		</tr>
 		<tr>
+		  <td height="97" align="left">&nbsp;</td>
+		  <td align="left">1.4.1 Basic text formatting (Globally):</td>
+		  <td align="left">SH01: I'm afraid that below isn't specific enough and you need to say<br />
+	        something about specific values  &amp;/or increments.
+		    <p>1) * Current text: &quot;Line spacing, choosing from a range with at least three values&quot;<br />
+		      As it is written, a user agent that provided 1.0, 1.1, 1.2 would meet<br />
+		      this criteria; however, that doesn't meet the needs of most users who<br />
+		      need increased line spacing, as most need between 1.25 and 2.0.<br />
+          </p></td>
+		  <td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/08-ua-minutes.html#item01">UAWG</a> changed 1.4.1 to <br />
+		    * Line spacing, choosing from a range with at least three values up to at least 2 times the default. UAWG added Note 4 to the introduction of 1.4:<br />
+		    Note 4: When it comes to magnification, size, or spacing, the optimum value for a given user would vary based on their visual impairment and the size of the content they’re reading. Therefore it’s recommended that user agents provide a wider range of values, and a greater number of increments, to allow the user to adjust the view for their current task. <br />
+		    UAWG added a sentence to the Intent of 1.4.1:<br />
+	      At a minimum, it is recommended to offer line spacing options of 1, 1.25, 1.5 and 2.0. </td>
+		  <td align="left">Accept</td>
+		  <td align="left">substantive</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
+		  <td height="97" align="left">&nbsp;</td>
+		  <td align="left">1.4.1 Basic text formatting (Globally):</td>
+		  <td align="left">SH05: *missing* &quot;Text style (underline, italic, bold)&quot;<br />
+	      Current text has it only provided by Element; it is missing from Globally.</td>
+		  <td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/08-ua-minutes.html#item06">UAWG</a> added a bullet to 1.4.1: Text style, choosing to turn on/off underline, italic, bold</td>
+		  <td align="left">Accept</td>
+		  <td align="left">substantive</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
+		  <td height="97" align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">SH08:  &quot;Note: Any user settings from the platform for these characteristics<br />
+		    are implemented.&quot;<br />
+	      I cannot figure out what this means.</td>
+		  <td align="left"><span class="under-discussion">[incomplete]</span> <a href="http://www.w3.org/WAI/UA/tracker/actions/1067">Action-1067</a></td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
 			<td height="97" align="left">AA</td>
 			<td align="left">1.4.2 Basic text formatting (by Element): The user can set all of the following characteristics of visually rendered text content for text element types including at least headings, input fields, and links: (Level AA)<br /> *&nbsp;Text size or scale<br /> *&nbsp;Text color and background color, choosing from all platform color options<br /> *&nbsp;Font family, choosing from at least all platform fonts<br /> *&nbsp;Line spacing, choosing from a range with at least three values<br /> *&nbsp;Text style (underline, italic, bold)</td>
 			<td align="left">MS06: 1.4.2 should be handled by AT<br /></td>
@@ -448,6 +509,17 @@ We do not agree that a "web-based user agent" is a legitimate concept.  If it's 
 			<td align="left"><br /></td>
 		</tr>
 		<tr>
+		  <td height="82" align="left">&nbsp;</td>
+		  <td align="left">1.4.3 Blocks of text (Globally)</td>
+		  <td align="left">SH03: * Current text: &quot;Character spacing, choosing from a range with at least 5 values&quot;<br />
+		    This may have the same issue as above, although maybe not because the<br />
+	      range of character spacing needed is far less, afaik.</td>
+		  <td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/08-ua-minutes.html#item04">UAWG</a> added a sentence to UAAG Reference: &quot;It is recommended to provide a range of character spacing of at least 0.01, 0.03, 0.06, 0.09 times the base character width. &quot;</td>
+		  <td align="left">Accept</td>
+		  <td align="left">substantive</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
 			<td height="82" align="left">AA</td>
 			<td align="left">1.4.4 Configured and Reflowed Text Printing: The user can print the rendered content, and the following are all true: (Level AA)<br /> (a)&nbsp;any visual, non-time-based, rendered content can be printed<br /> (b)&nbsp;the user can choose between available printing devices<br /> (c)&nbsp;the user can have content printed as it is rendered on screen, reflecting any user scaling, highlighting, and other modifications<br /> (d)&nbsp;the user can have printed content reflow as if the top-level viewport had been resized to match the horizontal dimension of the printing device's printable area</td>
 			<td align="left"><br /></td>
@@ -465,6 +537,25 @@ We do not agree that a "web-based user agent" is a legitimate concept.  If it's 
 			<td align="left">Substantive<br /></td>
 			<td align="left"><br /></td>
 		</tr>
+		<tr>
+		  <td height="17" align="left">&nbsp;</td>
+		  <td align="left">1.4.5 Advanced text formatting (Globally)</td>
+		  <td align="left">SH06:  * I had suggested more element-level customization at Level AAA that is missing from the current text. Given that it at Level AAA, does it make sense to leave it in there?</td>
+		  <td align="left"><span class="done">[done]</span> UAWG moved around the levels of element-level customization and we believe that all of the items are included with the exception of Word spacing, which we had deliberately removed. <br /></td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
+		<tr>
+		  <td height="17" align="left">&nbsp;</td>
+		  <td align="left">1.4.5 Advanced text formatting (Globally)</td>
+		  <td align="left">SH07: Word spacing seems to be missing all together. Is that an error or<br />
+	      conscious decision?</td>
+		  <td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/29-ua-minutes.html#item04">UAWG</a> put word spacing back as a new bullet in 1.4.5 Word spacing, choosing from a range with at least 5 values </td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+		  <td align="left">&nbsp;</td>
+	  </tr>
 		<tr>
 			<td height="17" align="left"><br /></td>
 			<td align="left">Note: This success criteria does not apply to text entered as all caps. Content authors are encouraged to use styles instead of typing text as all caps.</td>
@@ -714,10 +805,16 @@ the case.)</p></td>
 		<tr>
 			<td height="50" align="left">A</td>
 			<td align="left">1.8.5 Allow Zoom: The user can rescale content within top-level graphical viewports as follows: (Level A)<br /> *&nbsp;Zoom in: to 500% or more of the default size<br /> *&nbsp;Zoom out: to 10% or less of the default size, so the content fits within the height or width of the viewport</td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
+			<td align="left">SH02: * Current text: &quot;1.8.5 Allow Zoom:  The user can rescale content within<br />
+			  top-level graphical viewports as follows: (Level A) Zoom in: to 500% or<br />
+			  more of the default size...&quot;<br />
+			  As it is written, a user agent that provided just two options for zoom:<br />
+			  100% and 500%, would meet this criteria; however, that's not<br />
+			  sufficiently accessible because the vast majority of users who need zoom<br />
+		    will need it at a percent in between 100 &amp; 500%.<br /></td>
+			<td align="left"><span class="done">[done]</span> <a href="http://www.w3.org/2015/01/08-ua-minutes.html#item03">UAWG</a> does not accept the comment because this is already well implemented, the UA already have nearly infinite zoom up to 500%. UAAG wording is agnostic and allows UAs to use what ever method to provide the scaling to 500%<br /></td>
+			<td align="left">Not accepted<br /></td>
+			<td align="left">substantive<br /></td>
 			<td align="left"><br /></td>
 		</tr>
 		<tr>
@@ -812,10 +909,17 @@ middle-click from doing that job.)<br /></td>
 		<tr>
 			<td height="18" align="left">AA</td>
 			<td align="left">1.8.13 Multi-Column Text Reflow: The user can specify that recognized multi-column text blocks each be reflowed into a single column. (Level AA)</td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
-			<td align="left"><br /></td>
+			<td align="left">SH09: And some typos-type stuff I noticed:<br />
+			  * &quot;The user can specifiy that multi-column text blocks be reflowed into<br />
+			  a single column (1.8.14, Level AA)&quot;<br />
+			  specifiy -&gt; specify<br />
+			  * &quot;Summary: ... The user can specifiy that multi-column text blocks be<br />
+			  reflowed into a single column (1.8.14, Level AA)&quot;<br />
+			  doesn't match below: &quot;1.8.13 Multi-Column Text Reflow:&quot; ... &quot;1.8.14<br />
+		    Ignore Fixed Unit Dimensions:&quot;<br /></td>
+			<td align="left"><span class="done">[done]</span><br /></td>
+			<td align="left">Accept<br /></td>
+			<td align="left">editorial</td>
 			<td align="left"><br /></td>
 		</tr>
 		<tr>
